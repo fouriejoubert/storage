@@ -1,0 +1,27 @@
+{% extends 'storageadmin/base.html' %}
+{% block title %}Home{% endblock title %}
+{% block nav-style %}mkt-nav{% endblock nav-style %}
+
+{% block content %}  
+{% csrf_token %}
+
+{% load static %}
+
+<h2><center>Current Storage Usage</center></h2>
+<table>
+    <tr>
+	    {% for key, value in volume_pie_dict.items %}
+	        <td>
+				<img src="{% static value %}" alt="Pie Chart"/> 
+			</br>
+				<h3><center>{{ key }}</center></h3>
+			</td>
+		{% endfor %}
+    </tr>
+</table>
+
+
+
+
+
+{% endblock content %}  

@@ -1,0 +1,104 @@
+{# HTML5 declaration #}
+<!DOCTYPE html>
+<html>
+    {# Make modifiable head elements #}
+    <head>
+        <title>{% block title %}Home {% endblock title %} | Storage Admin</title>
+        {% block head_favicon %}
+            <link rel="icon" type="image/png"
+                  href="{{ STATIC_URL }}images/favicon.ico">
+        {% endblock head_favicon %}
+        {% block head_meta %}
+            {% block head_meta_charset %}
+                <meta http-equiv="Content-Type"
+                      content="text/html; charset=utf-8" />
+            {% endblock head_meta_charset %}
+            {% block head_meta_contentlanguage %}
+                <meta http-equiv="Content-Language" value="en-US" />
+            {% endblock head_meta_contentlanguage %}
+            {% block head_meta_viewport %}
+                <meta name="viewport"
+                      content="width=device-width, initial-scale=1.0">
+            {% endblock head_meta_viewport %}
+        {% endblock head_meta %}
+        {% block head_css %}
+            {% block head_css_site %}
+                <link href="http://trin.bi.up.ac.za/bootstrap-3.2.0/dist/css/bootstrap.min.css"
+                      rel="stylesheet" media="screen">
+				<link href="http://trin.bi.up.ac.za/bootstrap-3.2.0/dist/css/bootstrap-theme.min.css"
+					  rel="stylesheet">
+            {% endblock head_css_site %}
+            {% block head_css_section %}{% endblock head_css_section %}
+            {% block head_css_page %}{% endblock head_css_page %}
+        {% endblock head_css %}
+
+<link rel="stylesheet" type="text/css" href="/DataTables-1.10.16/css/dataTables.bootstrap.css">
+<script src="{{ STATIC_URL }}js/jquery-3.3.1.min.js"></script>
+<script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+<script type="text/javascript" charset="utf8" src="/DataTables-1.10.16/js/dataTables.bootstrap.js"></script>
+
+<script type="text/javascript" class="init">
+  $(document).ready(function() {
+  $('#user_storage').DataTable();
+} );
+</script>
+
+    </head>
+	<body>
+	    {# Navigation Menu #}
+	    <header>
+	        <div class="navbar navbar-default navbar-static-top 
+	        {% block nav-style %}{% endblock %}">
+	            <div class="container p-none">
+	            <a href="base.html" id="" title="base"></a>    <div class="navbar-header">
+	                    <button type="button" class="navbar-toggle"
+	                            data-toggle="collapse"
+	                            data-target=".navbar-collapse">
+	                        <span class="icon-bar"></span>
+	                        <span class="icon-bar"></span>
+	                        <span class="icon-bar"></span>
+	                    </button>
+	                    <a class="navbar-brand" href="/storageadmin">Storage Admin</a>
+	                </div>
+	                <div class="collapse navbar-collapse">
+	                    <ul class="nav navbar-nav navbar-right">
+								<li><a href="/storageadmin/choose_date_user_detail/">Individual usage</a></li>							
+								<li><a href="/storageadmin/choose_date_group_storage_summary/">Group usage</a></li>
+	                        {% if user.is_staff %}
+	                            <li><a href="/admin/" class="p-r-none">Admin</a></li>
+							{% endif %}
+	                        {% if user.is_authenticated %}
+	                            <li><a href="/storageadmin/accounts/logout">Logout</a></li>
+	                        {% else %}
+	                            <li><a href="/storageadmin/accounts/login">Login</a></li>
+	                        {% endif %}
+	                    </ul>
+	                </div>
+	            </div>
+	        </div>
+	    </header>
+	    {# The Document Body #}
+	    <div id="site-wrapper">
+	        {% block content %}
+	            if you see this, something is wrong!
+	        {% endblock content %}
+	    </div>
+	    {# The Footer #}
+	    <div class="footer">
+	        <div class="container">
+	            <p><center><i>Bioinformatics - University of Pretoria</i></center></p>
+	        </div>
+	    </div>
+	</body>
+
+{# Set of blocks that can be used to display JavaScript files #}
+    {% block footer_javascript %}
+        {% block footer_javascript_site %}
+            <script src="{{ STATIC_URL }}js/jquery-3.3.1.min.js"></script>
+            <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
+            <script src="{{ STATIC_URL }}js/app.js"></script>
+        {% endblock footer_javascript_site %}
+        {% block footer_javascript_section %}{% endblock footer_javascript_section %}
+        {% block footer_javascript_page %}{% endblock footer_javascript_page %}
+    {% endblock footer_javascript %}
+</html>

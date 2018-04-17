@@ -1,0 +1,416 @@
+-- MySQL dump 10.13  Distrib 5.1.73, for redhat-linux-gnu (x86_64)
+--
+-- Host: localhost    Database: storage
+-- ------------------------------------------------------
+-- Server version	5.1.73
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `auth_group`
+--
+
+DROP TABLE IF EXISTS `auth_group`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `auth_group` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(80) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `name` (`name`)
+) ENGINE=MyISAM AUTO_INCREMENT=30 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `auth_group`
+--
+
+LOCK TABLES `auth_group` WRITE;
+/*!40000 ALTER TABLE `auth_group` DISABLE KEYS */;
+INSERT INTO `auth_group` VALUES (1,'admin'),(2,'Cancer Genomics'),(3,'ARP'),(4,'Bacterial Genomics and Host Pathogen Interactions'),(5,'BIF Oleg'),(6,'CBCB'),(7,'Centre for Viral Zoonoses'),(8,'CFPRG'),(9,'CMEG Cowan'),(10,'CMEG Makhalanyane'),(11,'DNA Sequencing Laboratory'),(12,'FABI/TPCP Barnes'),(13,'FABI/TPCP Slippers'),(14,'Female Health'),(15,'FMG Mizrahi'),(16,'FMG Myburg'),(17,'FMG Naidoo'),(18,'Hefer OVI'),(19,'ICMM'),(20,'Ion Torrent Sequencing Facility'),(21,'M2PL'),(22,'MBoP'),(23,'MMR'),(24,'MPPI'),(25,'Orbivirus'),(26,'Rhizobia research'),(27,'Scarab Research Group'),(28,'Social Insects Research Group (SIRG)'),(29,'Tick vaccines');
+/*!40000 ALTER TABLE `auth_group` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `auth_group_permissions`
+--
+
+DROP TABLE IF EXISTS `auth_group_permissions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `auth_group_permissions` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `group_id` int(11) NOT NULL,
+  `permission_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `auth_group_permissions_group_id_permission_id_0cd325b0_uniq` (`group_id`,`permission_id`),
+  KEY `auth_group_permissions_group_id_b120cbf9` (`group_id`),
+  KEY `auth_group_permissions_permission_id_84c5c92e` (`permission_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `auth_group_permissions`
+--
+
+LOCK TABLES `auth_group_permissions` WRITE;
+/*!40000 ALTER TABLE `auth_group_permissions` DISABLE KEYS */;
+INSERT INTO `auth_group_permissions` VALUES (1,1,1),(2,1,2),(3,1,3),(4,1,4),(5,1,5),(6,1,6),(7,1,7),(8,1,8),(9,1,9),(10,1,10),(11,1,11),(12,1,12),(13,1,13),(14,1,14),(15,1,15),(16,1,16),(17,1,17),(18,1,18);
+/*!40000 ALTER TABLE `auth_group_permissions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `auth_permission`
+--
+
+DROP TABLE IF EXISTS `auth_permission`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `auth_permission` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL,
+  `content_type_id` int(11) NOT NULL,
+  `codename` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `auth_permission_content_type_id_codename_01ab375a_uniq` (`content_type_id`,`codename`),
+  KEY `auth_permission_content_type_id_2f476e4b` (`content_type_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=37 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `auth_permission`
+--
+
+LOCK TABLES `auth_permission` WRITE;
+/*!40000 ALTER TABLE `auth_permission` DISABLE KEYS */;
+INSERT INTO `auth_permission` VALUES (1,'Can add log entry',1,'add_logentry'),(2,'Can change log entry',1,'change_logentry'),(3,'Can delete log entry',1,'delete_logentry'),(4,'Can add permission',2,'add_permission'),(5,'Can change permission',2,'change_permission'),(6,'Can delete permission',2,'delete_permission'),(7,'Can add group',3,'add_group'),(8,'Can change group',3,'change_group'),(9,'Can delete group',3,'delete_group'),(10,'Can add user',4,'add_user'),(11,'Can change user',4,'change_user'),(12,'Can delete user',4,'delete_user'),(13,'Can add content type',5,'add_contenttype'),(14,'Can change content type',5,'change_contenttype'),(15,'Can delete content type',5,'delete_contenttype'),(16,'Can add session',6,'add_session'),(17,'Can change session',6,'change_session'),(18,'Can delete session',6,'delete_session'),(19,'Can add lustre storage',7,'add_lustrestorage'),(20,'Can change lustre storage',7,'change_lustrestorage'),(21,'Can delete lustre storage',7,'delete_lustrestorage'),(22,'Can add home storage',8,'add_homestorage'),(23,'Can change home storage',8,'change_homestorage'),(24,'Can delete home storage',8,'delete_homestorage'),(25,'Can add storage usage',9,'add_storageusage'),(26,'Can change storage usage',9,'change_storageusage'),(27,'Can delete storage usage',9,'delete_storageusage'),(28,'Can add storage volume',10,'add_storagevolume'),(29,'Can change storage volume',10,'change_storagevolume'),(30,'Can delete storage volume',10,'delete_storagevolume'),(31,'Can add profile',11,'add_profile'),(32,'Can change profile',11,'change_profile'),(33,'Can delete profile',11,'delete_profile'),(34,'Can add billing model',12,'add_billingmodel'),(35,'Can change billing model',12,'change_billingmodel'),(36,'Can delete billing model',12,'delete_billingmodel');
+/*!40000 ALTER TABLE `auth_permission` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `auth_user`
+--
+
+DROP TABLE IF EXISTS `auth_user`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `auth_user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `password` varchar(128) NOT NULL,
+  `last_login` datetime DEFAULT NULL,
+  `is_superuser` tinyint(1) NOT NULL,
+  `username` varchar(150) NOT NULL,
+  `first_name` varchar(30) NOT NULL,
+  `last_name` varchar(150) NOT NULL,
+  `email` varchar(254) NOT NULL,
+  `is_staff` tinyint(1) NOT NULL,
+  `is_active` tinyint(1) NOT NULL,
+  `date_joined` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `username` (`username`)
+) ENGINE=MyISAM AUTO_INCREMENT=80 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `auth_user`
+--
+
+LOCK TABLES `auth_user` WRITE;
+/*!40000 ALTER TABLE `auth_user` DISABLE KEYS */;
+INSERT INTO `auth_user` VALUES (1,'pbkdf2_sha256$100000$C5QTYb6S2Usn$mvkfcMSgYQTTiog9xdumuR7iWak67Bwt6EOa5Sk2cVg=','2018-01-10 06:23:54',1,'admin','','','fourie.joubert@up.ac.za',1,1,'2018-01-10 06:23:30'),(2,'pbkdf2_sha256$100000$wMVbbpZy2aDr$YMeUsMSbGaeEL8HGiN6dqmFsNX2+AxTtFQjWzX9XuAI=','2018-04-03 14:09:38',1,'fourie','Fourie','Joubert','fourie.joubert@up.ac.za',1,1,'2018-01-10 06:24:45'),(71,'pbkdf2_sha256$100000$6FlFH18muVMc$GqkiESwXDRhH+dA8d9DAB6IXqlmeN5GICUu7OiDoegE=',NULL,0,'lyn-marie','Lyn-Marie','Birkholtz','lynmarie.birkholtz@up.ac.za',0,1,'2018-04-17 13:18:36'),(69,'pbkdf2_sha256$100000$CX2xJVxqfzxF$w1e5aBP0FCF6idRgR43c8j02A9M0LrF24PM1jVBn488=',NULL,0,'michael','Michael','Pepper','michael.pepper@up.ac.za',0,1,'2018-04-17 13:18:36'),(70,'pbkdf2_sha256$100000$K99b128ZqGu2$v/ft4rFXPfAWIxMMunaFkZvWPNciwMlza1EoWMLHbqM=',NULL,0,'nicky','Nicky','Olivier','nicky.olivier@up.ac.za',0,1,'2018-04-17 13:18:36'),(68,'pbkdf2_sha256$100000$UxR0qu6VbkGQ$svqmQIGllRHLP6NaZ7TKqEpMBCSbSS0MeNt7/Fp825E=',NULL,0,'charles','Charles','Hefer','charles.hefer@up.ac.za',0,1,'2018-04-17 13:18:36'),(67,'pbkdf2_sha256$100000$PVX8IcpySmOs$HV0+ywaLcfqWCMLVaENPOlBDTe/G+Ak/slMk+dOwCbY=',NULL,0,'sanushka','Sanushka','Naidoo','sanushka.naidoo@up.ac.za',0,1,'2018-04-17 13:18:35'),(66,'pbkdf2_sha256$100000$zLOK3RjyDqOD$q1ZMF0n3Fp6DRu+0RlJXwp0ub+HkrqPoODFE0jaRfyA=',NULL,0,'zander','Zander','Myburg','zander.myburg@up.ac.za',0,1,'2018-04-17 13:18:35'),(65,'pbkdf2_sha256$100000$35sqTvhyO8NJ$/YC+g4KzbGadMMO9SZPKguZEY82QbRIGkgfuLJV64h0=',NULL,0,'eshchar','Eshchar','Mizrachi','eshchar.mizrachi@up.ac.za',0,1,'2018-04-17 13:18:35'),(64,'pbkdf2_sha256$100000$mNyfVbU9cI4A$9cdH8nlU3zz89zvgDXeusLY/rY6MLOYjcuCEWxFkEJc=',NULL,0,'marleen','Marleen','Kock','marleen.kock@up.ac.za',0,1,'2018-04-17 13:18:35'),(63,'pbkdf2_sha256$100000$wx5ioZX7jPZo$evBu7vmzBQ2F6pRN0Rhs9BTvAupYCjj9AGB1y4D8lRg=',NULL,0,'bernard','Bernard','Slippers','bernard.slippers@up.ac.za',0,1,'2018-04-17 13:18:35'),(62,'pbkdf2_sha256$100000$GRhEHGen8poq$2v6mCQcdy/xWqrYK6CE05ipyR1ShYCZdKwE1+MaiXEc=',NULL,0,'irene','Irene','Barnes','irene.barnes@fabi.up.ac.za',0,1,'2018-04-17 13:18:35'),(61,'pbkdf2_sha256$100000$Xp5s5j18Vl92$0A6VJ66Ulw4lXYm5R3D+G6RDZ3WyCMQ91VLpKZQvOt4=',NULL,0,'renate','Renate','Zipfel','renate.zipfel@fabi.up.ac.za',0,1,'2018-04-17 13:18:35'),(60,'pbkdf2_sha256$100000$cbd5kab97mfn$1t8/2TRVrk140bh5B80hy2g0B7iFBqWT/45p5AeYRB8=',NULL,0,'thulani','Thulani','Makhalanyane','thulani.makhalanyane@up.ac.za',0,1,'2018-04-17 13:18:34'),(59,'pbkdf2_sha256$100000$5H82w7wOblbY$5eJ4VGHzDGX9f/Yr22ZJqcLggDA377kMRGDY7BJpslM=',NULL,0,'don','Don','Cowan','don.cowan@up.ac.za',0,1,'2018-04-17 13:18:34'),(58,'pbkdf2_sha256$100000$OChms0ErIv95$QIz/egBZVR5h8DHuoFx1XiRDbnh1tPxBu+tglxjA1g0=',NULL,0,'bridget','Bridget','Crampton','bgcrampton@gmail.com',0,1,'2018-04-17 13:18:34'),(57,'pbkdf2_sha256$100000$uUjBqEhdrapK$WGJU5uOvYZ17SjtqnLq3NYEfRnUu0+eQz9X3rtSj0pM=',NULL,0,'wanda','Wanda','Markotter','wanda.markotter@up.ac.za',0,1,'2018-04-17 13:18:34'),(56,'pbkdf2_sha256$100000$56yfkmYCOqj1$RwCZ5D/G5AdIdD5lMF7ZqGHfv6ggFN4HKbwVldvodVo=',NULL,0,'johann','Johann','Swart','johann.swart@up.ac.za',0,1,'2018-04-17 13:18:34'),(55,'pbkdf2_sha256$100000$X070PaKsHM5f$rdMoM4Q7pPlb/ylF1sBV05yy9sRcEkfcWDX22lifkPU=',NULL,0,'oleg','Oleg','Reva','oleg.reva@up.ac.za',0,1,'2018-04-17 13:18:34'),(54,'pbkdf2_sha256$100000$zGvSDIloTFNF$S1JyVPmuPL9TRqoBgw3tgHcSqsw3NpBx4IhWl2gmK10=',NULL,0,'lucy','Lucy','Moleleki','lucy.moleleki@up.ac.za',0,1,'2018-04-17 13:18:33'),(53,'pbkdf2_sha256$100000$kcU0w1HFXMul$0MHAs/z+T9FrdoudKUumiyBNQHn7A1CRpBkPDx9iSZc=',NULL,0,'noelani','Noelani','Van den Berg','noelani.vdberg@fabi.up.ac.za',0,1,'2018-04-17 13:18:33'),(72,'pbkdf2_sha256$100000$mVN42eF4mXV4$gMvVNlTYCbytApiuy2peP/WO9Q2tc3Viu3uJlMFzUyE=',NULL,0,'pamela','Pamela','de Waal','pam.dewaal@up.ac.za',0,1,'2018-04-17 13:18:36'),(73,'pbkdf2_sha256$100000$Sl2Jty0yXcKb$WQh83hoW5521AS7ElXBPbCLIER1aQOTWklsic36Jzww=',NULL,0,'wilma','Wilma','Fick','wilma.fick@up.ac.za',0,1,'2018-04-17 13:18:36'),(74,'pbkdf2_sha256$100000$j4Vlbdw6GS5h$B1QzHtQBv4yLHCsZietaN+UgIaCmp7qRsKWWFfERGBs=',NULL,0,'dave','Dave','Berger','dave.berger@up.ac.za',0,1,'2018-04-17 13:18:37'),(75,'pbkdf2_sha256$100000$iTDWugEt67yo$pHI7O5WuTWSg7qTa5nBhVRn7LBw7aPsmh9981PzPrhE=',NULL,0,'vida','Vida','van Staden','vida.vanstaden@up.ac.za',0,1,'2018-04-17 13:18:37'),(76,'pbkdf2_sha256$100000$SolWRc63HBOy$sFRFxYNYGUOyzxUlXgwqzIiujObvhGgvJWOAAgNuwa0=',NULL,0,'fanus','Fanus','Venter','fanus.venter@up.ac.za',0,1,'2018-04-17 13:18:37'),(77,'pbkdf2_sha256$100000$d726v84KRIsU$JBtAKOkq/6bdmxJ8pgNAQBTBf4ap+JBS51Ar5Zi7zNY=',NULL,0,'catherine','Catherine','Sole','catherine.sole@up.ac.za',0,1,'2018-04-17 13:18:37'),(78,'pbkdf2_sha256$100000$V2QQ5fzKCetU$T9KDFqDc7V0oYMJU52xWTbNeFa6Xd706Yt2E8RulTOk=',NULL,0,'christian','Christian','Pirk','christian.pirk@up.ac.za',0,1,'2018-04-17 13:18:37'),(79,'pbkdf2_sha256$100000$fQTUiKiT7zGl$WrB4V9NN1N9PGGJbkWVrQ+aun5z+sqhBK1Vsyv69QkU=',NULL,0,'christine','Christine','Maritz-Olivier','christine.maritz@up.ac.za',0,1,'2018-04-17 13:18:37');
+/*!40000 ALTER TABLE `auth_user` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `auth_user_groups`
+--
+
+DROP TABLE IF EXISTS `auth_user_groups`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `auth_user_groups` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `group_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `auth_user_groups_user_id_group_id_94350c0c_uniq` (`user_id`,`group_id`),
+  KEY `auth_user_groups_user_id_6a12ed8b` (`user_id`),
+  KEY `auth_user_groups_group_id_97559544` (`group_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=31 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `auth_user_groups`
+--
+
+LOCK TABLES `auth_user_groups` WRITE;
+/*!40000 ALTER TABLE `auth_user_groups` DISABLE KEYS */;
+INSERT INTO `auth_user_groups` VALUES (1,2,1),(2,2,2),(3,3,2),(4,53,3),(5,54,4),(6,55,5),(7,56,6),(8,57,7),(9,58,8),(10,59,9),(11,60,10),(12,61,11),(13,62,12),(14,63,13),(15,64,14),(16,65,15),(17,66,16),(18,67,17),(19,68,18),(20,69,19),(21,70,20),(22,71,21),(23,72,22),(24,73,23),(25,74,24),(26,75,25),(27,76,26),(28,77,27),(29,78,28),(30,79,29);
+/*!40000 ALTER TABLE `auth_user_groups` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `auth_user_user_permissions`
+--
+
+DROP TABLE IF EXISTS `auth_user_user_permissions`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `auth_user_user_permissions` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `permission_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `auth_user_user_permissions_user_id_permission_id_14a6b632_uniq` (`user_id`,`permission_id`),
+  KEY `auth_user_user_permissions_user_id_a95ead1b` (`user_id`),
+  KEY `auth_user_user_permissions_permission_id_1fbb5f2c` (`permission_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `auth_user_user_permissions`
+--
+
+LOCK TABLES `auth_user_user_permissions` WRITE;
+/*!40000 ALTER TABLE `auth_user_user_permissions` DISABLE KEYS */;
+/*!40000 ALTER TABLE `auth_user_user_permissions` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `django_admin_log`
+--
+
+DROP TABLE IF EXISTS `django_admin_log`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `django_admin_log` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `action_time` datetime NOT NULL,
+  `object_id` longtext,
+  `object_repr` varchar(200) NOT NULL,
+  `action_flag` smallint(5) unsigned NOT NULL,
+  `change_message` longtext NOT NULL,
+  `content_type_id` int(11) DEFAULT NULL,
+  `user_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `django_admin_log_content_type_id_c4bce8eb` (`content_type_id`),
+  KEY `django_admin_log_user_id_c564eba6` (`user_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `django_admin_log`
+--
+
+LOCK TABLES `django_admin_log` WRITE;
+/*!40000 ALTER TABLE `django_admin_log` DISABLE KEYS */;
+INSERT INTO `django_admin_log` VALUES (1,'2018-01-10 06:24:29','1','admin',1,'[{\"added\": {}}]',3,1),(2,'2018-01-10 06:24:46','2','fourie',1,'[{\"added\": {}}]',4,1),(3,'2018-01-10 06:25:09','2','fourie',2,'[{\"changed\": {\"fields\": [\"first_name\", \"last_name\", \"email\", \"is_staff\", \"is_superuser\", \"groups\"]}}]',4,1),(4,'2018-01-10 08:46:50','1','LustreStorage object (1)',1,'[{\"added\": {}}]',7,1),(5,'2018-01-10 08:51:37','1','HomeStorage object (1)',1,'[{\"added\": {}}]',8,1),(6,'2018-01-19 09:35:26','1','StorageVolume object (1)',1,'[{\"added\": {}}]',10,1),(7,'2018-01-19 09:35:31','2','StorageVolume object (2)',1,'[{\"added\": {}}]',10,1),(8,'2018-01-19 09:35:35','2','StorageVolume object (2)',2,'[]',10,1),(9,'2018-01-19 09:36:06','1','StorageUsage object (1)',1,'[{\"added\": {}}]',9,1),(10,'2018-01-19 09:36:09','1','StorageUsage object (1)',2,'[]',9,1),(11,'2018-01-22 08:25:57','2','Cancer Genomics',1,'[{\"added\": {}}]',3,1),(12,'2018-01-22 08:31:21','2','fourie',2,'[{\"changed\": {\"fields\": [\"groups\"]}}]',4,1),(13,'2018-01-22 08:39:28','3','test',1,'[{\"added\": {}}]',4,1),(14,'2018-01-22 08:39:47','3','test',2,'[{\"changed\": {\"fields\": [\"first_name\", \"last_name\", \"email\", \"groups\"]}}]',4,1),(15,'2018-01-24 13:45:00','2','StorageVolume object (2)',2,'[{\"changed\": {\"fields\": [\"storage_volume_path\"]}}]',10,2),(16,'2018-01-24 13:45:07','1','StorageVolume object (1)',2,'[{\"changed\": {\"fields\": [\"storage_volume_path\"]}}]',10,2),(17,'2018-03-30 19:00:51','2','fourie',2,'[{\"changed\": {\"name\": \"profile\", \"object\": \"Profile object (2)\", \"fields\": [\"quota_lustre\"]}}]',4,2),(18,'2018-03-30 19:05:45','2','fourie',2,'[{\"changed\": {\"name\": \"profile\", \"object\": \"Profile object (2)\", \"fields\": [\"quota_lustre\"]}}]',4,2);
+/*!40000 ALTER TABLE `django_admin_log` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `django_content_type`
+--
+
+DROP TABLE IF EXISTS `django_content_type`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `django_content_type` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `app_label` varchar(100) NOT NULL,
+  `model` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `django_content_type_app_label_model_76bd3d3b_uniq` (`app_label`,`model`)
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `django_content_type`
+--
+
+LOCK TABLES `django_content_type` WRITE;
+/*!40000 ALTER TABLE `django_content_type` DISABLE KEYS */;
+INSERT INTO `django_content_type` VALUES (1,'admin','logentry'),(2,'auth','permission'),(3,'auth','group'),(4,'auth','user'),(5,'contenttypes','contenttype'),(6,'sessions','session'),(7,'storageadmin','lustrestorage'),(8,'storageadmin','homestorage'),(9,'storageadmin','storageusage'),(10,'storageadmin','storagevolume'),(11,'storageadmin','profile'),(12,'storageadmin','billingmodel');
+/*!40000 ALTER TABLE `django_content_type` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `django_migrations`
+--
+
+DROP TABLE IF EXISTS `django_migrations`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `django_migrations` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `app` varchar(255) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `applied` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=29 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `django_migrations`
+--
+
+LOCK TABLES `django_migrations` WRITE;
+/*!40000 ALTER TABLE `django_migrations` DISABLE KEYS */;
+INSERT INTO `django_migrations` VALUES (1,'contenttypes','0001_initial','2018-01-10 06:22:20'),(2,'auth','0001_initial','2018-01-10 06:22:20'),(3,'admin','0001_initial','2018-01-10 06:22:20'),(4,'admin','0002_logentry_remove_auto_add','2018-01-10 06:22:20'),(5,'contenttypes','0002_remove_content_type_name','2018-01-10 06:22:20'),(6,'auth','0002_alter_permission_name_max_length','2018-01-10 06:22:20'),(7,'auth','0003_alter_user_email_max_length','2018-01-10 06:22:20'),(8,'auth','0004_alter_user_username_opts','2018-01-10 06:22:20'),(9,'auth','0005_alter_user_last_login_null','2018-01-10 06:22:20'),(10,'auth','0006_require_contenttypes_0002','2018-01-10 06:22:20'),(11,'auth','0007_alter_validators_add_error_messages','2018-01-10 06:22:20'),(12,'auth','0008_alter_user_username_max_length','2018-01-10 06:22:20'),(13,'auth','0009_alter_user_last_name_max_length','2018-01-10 06:22:20'),(14,'sessions','0001_initial','2018-01-10 06:22:20'),(15,'storageadmin','0001_initial','2018-01-10 08:45:17'),(16,'storageadmin','0002_homestorage','2018-01-10 08:49:43'),(17,'storageadmin','0003_auto_20180118_1338','2018-01-18 13:38:20'),(18,'storageadmin','0004_auto_20180119_0934','2018-01-19 09:34:43'),(19,'storageadmin','0005_profile','2018-01-22 08:27:01'),(20,'storageadmin','0006_auto_20180122_0831','2018-01-22 08:31:05'),(21,'storageadmin','0007_profile','2018-01-22 08:36:58'),(22,'storageadmin','0008_auto_20180124_0924','2018-01-24 09:24:11'),(23,'storageadmin','0009_auto_20180124_1344','2018-01-24 13:44:42'),(24,'storageadmin','0010_storageusage_storage_usage_quota','2018-03-30 13:38:38'),(25,'storageadmin','0011_auto_20180330_1347','2018-03-30 13:47:15'),(26,'storageadmin','0012_auto_20180330_1900','2018-03-30 19:00:28'),(27,'storageadmin','0013_auto_20180417_1145','2018-04-17 11:46:05'),(28,'storageadmin','0014_auto_20180417_1201','2018-04-17 12:01:44');
+/*!40000 ALTER TABLE `django_migrations` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `django_session`
+--
+
+DROP TABLE IF EXISTS `django_session`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `django_session` (
+  `session_key` varchar(40) NOT NULL,
+  `session_data` longtext NOT NULL,
+  `expire_date` datetime NOT NULL,
+  PRIMARY KEY (`session_key`),
+  KEY `django_session_expire_date_a5c62663` (`expire_date`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `django_session`
+--
+
+LOCK TABLES `django_session` WRITE;
+/*!40000 ALTER TABLE `django_session` DISABLE KEYS */;
+INSERT INTO `django_session` VALUES ('v4g432vc2jgdkrn6z67gg74g175paljs','MWQyMWQxOTA1NDE4YmI2OTZkMzQ3MzQ1YTFhMGQ0NzE0YzY2NDU5Nzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyOTQ0Nzg3Mjc5M2JjNjUzZTMyMjZjN2UwNDM2NGQxZDhhZjUyNDI0In0=','2018-01-24 06:23:54'),('xmcfxni0kjo72jtuprtilllx4mo00ke3','ZWRjNDE5OTIwZDE0NzczOTU1NzZlNzUzNzZiZDA4YzdkYTRlMWQzNzp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNDNkZjZkNDZmNjFlMmNmOWFmM2U2MjE1YmM5NTJhMzg3NGYyOTM5In0=','2018-02-07 14:15:06'),('rfeb47wwkilbkyg28wiaht17tkql1u0w','ZWRjNDE5OTIwZDE0NzczOTU1NzZlNzUzNzZiZDA4YzdkYTRlMWQzNzp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNDNkZjZkNDZmNjFlMmNmOWFmM2U2MjE1YmM5NTJhMzg3NGYyOTM5In0=','2018-02-10 09:03:51'),('pafr7lemwt5tehmdf23fnjkj8vvql8vv','ZWRjNDE5OTIwZDE0NzczOTU1NzZlNzUzNzZiZDA4YzdkYTRlMWQzNzp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNDNkZjZkNDZmNjFlMmNmOWFmM2U2MjE1YmM5NTJhMzg3NGYyOTM5In0=','2018-02-22 12:07:37'),('tay012944ewgt4qw9ybefvek9v20m4fp','ZWRjNDE5OTIwZDE0NzczOTU1NzZlNzUzNzZiZDA4YzdkYTRlMWQzNzp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNDNkZjZkNDZmNjFlMmNmOWFmM2U2MjE1YmM5NTJhMzg3NGYyOTM5In0=','2018-04-13 19:07:04'),('xhguus01y0y0hqs79y5m0saqdlnooa6f','ZWRjNDE5OTIwZDE0NzczOTU1NzZlNzUzNzZiZDA4YzdkYTRlMWQzNzp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNDNkZjZkNDZmNjFlMmNmOWFmM2U2MjE1YmM5NTJhMzg3NGYyOTM5In0=','2018-04-07 16:57:27'),('krs4chos4h4ms1fpk8t6dyrlluyqg0pr','ZWRjNDE5OTIwZDE0NzczOTU1NzZlNzUzNzZiZDA4YzdkYTRlMWQzNzp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIyNDNkZjZkNDZmNjFlMmNmOWFmM2U2MjE1YmM5NTJhMzg3NGYyOTM5In0=','2018-04-17 14:09:38');
+/*!40000 ALTER TABLE `django_session` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `storageadmin_billingmodel`
+--
+
+DROP TABLE IF EXISTS `storageadmin_billingmodel`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `storageadmin_billingmodel` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `cost_per_tb_per_day` double NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `storageadmin_billingmodel`
+--
+
+LOCK TABLES `storageadmin_billingmodel` WRITE;
+/*!40000 ALTER TABLE `storageadmin_billingmodel` DISABLE KEYS */;
+/*!40000 ALTER TABLE `storageadmin_billingmodel` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `storageadmin_profile`
+--
+
+DROP TABLE IF EXISTS `storageadmin_profile`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `storageadmin_profile` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `quota_home` double NOT NULL,
+  `quota_lustre` double NOT NULL,
+  `quota_galaxy` double NOT NULL,
+  `usage_galaxy` double NOT NULL,
+  `usage_home` double NOT NULL,
+  `usage_lustre` double NOT NULL,
+  `is_group_leader` tinyint(1) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `user_id` (`user_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=79 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `storageadmin_profile`
+--
+
+LOCK TABLES `storageadmin_profile` WRITE;
+/*!40000 ALTER TABLE `storageadmin_profile` DISABLE KEYS */;
+INSERT INTO `storageadmin_profile` VALUES (1,3,0,0,0,0,0,0,0),(2,2,0,0,0,0,0,0,1),(3,4,0,0,0,0,0,0,1),(4,5,0,0,0,0,0,0,1),(5,6,0,0,0,0,0,0,1),(6,7,0,0,0,0,0,0,1),(7,8,0,0,0,0,0,0,1),(8,9,0,0,0,0,0,0,1),(9,10,0,0,0,0,0,0,1),(10,11,0,0,0,0,0,0,1),(11,12,0,0,0,0,0,0,1),(12,13,0,0,0,0,0,0,1),(13,14,0,0,0,0,0,0,1),(14,15,0,0,0,0,0,0,1),(15,16,0,0,0,0,0,0,1),(16,17,0,0,0,0,0,0,1),(17,18,0,0,0,0,0,0,1),(18,19,0,0,0,0,0,0,1),(19,20,0,0,0,0,0,0,1),(20,21,0,0,0,0,0,0,1),(21,22,0,0,0,0,0,0,1),(22,23,0,0,0,0,0,0,1),(23,24,0,0,0,0,0,0,1),(24,25,0,0,0,0,0,0,1),(25,26,0,0,0,0,0,0,1),(26,27,0,0,0,0,0,0,1),(27,28,0,0,0,0,0,0,1),(28,29,0,0,0,0,0,0,1),(29,30,0,0,0,0,0,0,1),(30,31,0,0,0,0,0,0,1),(31,32,0,0,0,0,0,0,1),(32,33,0,0,0,0,0,0,1),(33,34,0,0,0,0,0,0,1),(34,35,0,0,0,0,0,0,1),(35,36,0,0,0,0,0,0,1),(36,37,0,0,0,0,0,0,1),(37,38,0,0,0,0,0,0,1),(38,39,0,0,0,0,0,0,1),(39,40,0,0,0,0,0,0,1),(40,41,0,0,0,0,0,0,1),(41,42,0,0,0,0,0,0,1),(42,43,0,0,0,0,0,0,1),(43,44,0,0,0,0,0,0,1),(44,45,0,0,0,0,0,0,1),(45,46,0,0,0,0,0,0,1),(46,47,0,0,0,0,0,0,1),(47,48,0,0,0,0,0,0,1),(48,49,0,0,0,0,0,0,1),(49,50,0,0,0,0,0,0,1),(50,51,0,0,0,0,0,0,1),(51,52,0,0,0,0,0,0,1),(52,53,0,0,0,0,0,0,1),(53,54,0,0,0,0,0,0,1),(54,55,0,0,0,0,0,0,1),(55,56,0,0,0,0,0,0,1),(56,57,0,0,0,0,0,0,1),(57,58,0,0,0,0,0,0,1),(58,59,0,0,0,0,0,0,1),(59,60,0,0,0,0,0,0,1),(60,61,0,0,0,0,0,0,1),(61,62,0,0,0,0,0,0,1),(62,63,0,0,0,0,0,0,1),(63,64,0,0,0,0,0,0,1),(64,65,0,0,0,0,0,0,1),(65,66,0,0,0,0,0,0,1),(66,67,0,0,0,0,0,0,1),(67,68,0,0,0,0,0,0,1),(68,69,0,0,0,0,0,0,1),(69,70,0,0,0,0,0,0,1),(70,71,0,0,0,0,0,0,1),(71,72,0,0,0,0,0,0,1),(72,73,0,0,0,0,0,0,1),(73,74,0,0,0,0,0,0,1),(74,75,0,0,0,0,0,0,1),(75,76,0,0,0,0,0,0,1),(76,77,0,0,0,0,0,0,1),(77,78,0,0,0,0,0,0,1),(78,79,0,0,0,0,0,0,1);
+/*!40000 ALTER TABLE `storageadmin_profile` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `storageadmin_storageusage`
+--
+
+DROP TABLE IF EXISTS `storageadmin_storageusage`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `storageadmin_storageusage` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `storage_date` datetime NOT NULL,
+  `storage_usage_amount` double NOT NULL,
+  `storage_user_id` int(11) NOT NULL,
+  `storage_volume_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `storageadmin_storageusage_storage_user_id_c9def861` (`storage_user_id`),
+  KEY `storageadmin_storageusage_storage_volume_id_3814abf6` (`storage_volume_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `storageadmin_storageusage`
+--
+
+LOCK TABLES `storageadmin_storageusage` WRITE;
+/*!40000 ALTER TABLE `storageadmin_storageusage` DISABLE KEYS */;
+INSERT INTO `storageadmin_storageusage` VALUES (1,'2018-01-19 09:35:59',2112312,2,1),(2,'2018-01-19 12:09:36',12345,2,1),(3,'2018-01-19 12:10:00',1123812,2,1),(4,'2018-01-19 12:10:07',123890,2,1),(5,'2018-01-19 12:10:15',1110000,2,1),(6,'2018-01-19 14:16:32',720589224,2,2),(7,'2018-01-19 14:17:03',720589224,2,2),(8,'2018-01-19 14:18:55',720589224,2,2),(9,'2018-01-22 07:30:09',720589224,2,2),(10,'2018-01-22 08:01:16',19607056944,2,1),(11,'2018-01-22 08:13:38',19607056944,2,1),(12,'2018-01-22 08:15:49',19607056944,2,1),(13,'2018-01-22 08:16:00',19607056944,2,1),(14,'2018-01-22 08:16:00',720589224,2,2);
+/*!40000 ALTER TABLE `storageadmin_storageusage` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `storageadmin_storagevolume`
+--
+
+DROP TABLE IF EXISTS `storageadmin_storagevolume`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `storageadmin_storagevolume` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `storage_volume_name` varchar(30) NOT NULL,
+  `storage_volume_path` varchar(30) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `storageadmin_storagevolume`
+--
+
+LOCK TABLES `storageadmin_storagevolume` WRITE;
+/*!40000 ALTER TABLE `storageadmin_storagevolume` DISABLE KEYS */;
+INSERT INTO `storageadmin_storagevolume` VALUES (1,'Lustre','/lustre'),(2,'Home','/home');
+/*!40000 ALTER TABLE `storageadmin_storagevolume` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2018-04-17 15:45:52

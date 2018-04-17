@@ -1,0 +1,28 @@
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+{% if storage_usage_records %}
+	<table border="1">
+		<tr>
+			<th>Login Name</th>
+			<th>First Name</th>
+			<th>Last Name</th>
+			<th>Storage Volume</th>
+			<th>Storage Date</th>
+			<th>Data Stored</th>
+		</tr>
+	    {% for storage_usage_record in storage_usage_records %}
+	        <tr>
+				<td>{{storage_usage_record.storage_user}}</td>
+				<td>{{storage_usage_record.storage_user.first_name}}</td>
+				<td>{{storage_usage_record.storage_user.last_name}}</td>
+				<td>{{storage_usage_record.storage_volume.storage_volume_name}}</td>
+				<td>{{storage_usage_record.storage_date}}</td>
+				<td>{{storage_usage_record.storage_usage_amount}}</td>
+			</tr>
+	    {% endfor %}
+	</table>
+
+{% else %}
+    <p>No records are available.</p>
+{% endif %}

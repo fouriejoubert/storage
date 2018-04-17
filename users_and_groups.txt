@@ -1,0 +1,193 @@
+sarah	sarah	Sarah	Mwangi	wambuisara@gmail.com	ARP	Noelani	Van den Berg	noelani.vdberg@fabi.up.ac.za	home
+/lustre/sarah	sarah	Sarah	Mwangi	wambuisara@gmail.com	ARP	Noelani	Van den Berg	noelani.vdberg@fabi.up.ac.za	lustre
+danielb	danielb	Daniel	Bellieny-Rabelo	daniel.bellieny@gmail.com	Bacterial Genomics and Host Pathogen Interactions	Lucy	Moleleki	lucy.moleleki@up.ac.za	home
+stanfordk	stanfordk	Stanford	Kwenda	stanieviv@yahoo.com	Bacterial Genomics and Host Pathogen Interactions	Lucy	Moleleki	lucy.moleleki@up.ac.za	home
+/lustre/stanfordk	stanfordk	Stanford	Kwenda	stanieviv@yahoo.com	Bacterial Genomics and Host Pathogen Interactions	Lucy	Moleleki	lucy.moleleki@up.ac.za	lustre
+werner	werner	Werner	Smidt	werner.smidt@gmail.com	Cancer Genomics	Fourie	Joubert	fourie.joubert@up.ac.za	home
+adeola	adeloa	Adeola	Rotimi	talk2adey100@gmail.com	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	home
+/lustre/adeola	adeola	Adeola	Rotimi	talk2adey100@gmail.com	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	lustre
+ansie	ansie	Anna	Yssel	aejysselansie@gmail.com	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	home
+dillon	dillon	Dillon	Muzondiwa	dillonmuzondiwa@gmail.com	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	home
+/lustre/liberata	dillon	Dillon	Muzondiwa	dillonmuzondiwa@gmail.com	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	lustre
+liberata	liberata	Liberata	Mwita	oleg.reva@up.ac.za	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	home
+mjoubert	mjoubert	Monique	Joubert	moniiek010@gmail.com	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	home
+/lustre/mjoubert	mjoubert	Monique	Joubert	moniiek010@gmail.com	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	lustre
+oleg	oleg	Oleg	Reva	oleg.reva@up.ac.za	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	home
+oliver	oliver	oliver	bezuidt	oleg.reva@up.ac.za	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	home
+/lustre/oliver	oliver	oliver	bezuidt	oleg.reva@up.ac.za	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	lustre
+rian	rian	Rian	Pierneef	repierneef@live.com	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	home
+/lustre/rian	rian	Rian	Pierneef	repierneef@live.com	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	lustre
+shawn	shawn	Xiaoyu	Yu	kag3Tsuk1@gmail.com	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	home
+/lustre/shawn	shawn	Xiaoyu	Yu	kag3Tsuk1@gmail.com	BIF Oleg	Oleg	Reva	oleg.reva@up.ac.za	lustre
+dewalde	dewalde	Dewald	Eygelaar	eygelaardewald@gmail.com	Cancer Genomics	Fourie	Joubert	fourie.joubert@up.ac.za	home
+/lustre/dewalde	dewalde	Dewald	Eygelaar	eygelaardewald@gmail.com	Cancer Genomics	Fourie	Joubert	fourie.joubert@up.ac.za	lustre
+fourie	fourie	Fourie	Joubert	fourie.joubert@up.ac.za	Cancer Genomics	Fourie	Joubert	fourie.joubert@up.ac.za	home
+/lustre/fourie	fourie	Fourie	Joubert	fourie.joubert@up.ac.za	Cancer Genomics	Fourie	Joubert	fourie.joubert@up.ac.za	lustre
+gregm	gregm	Greg	Milner	milnerga@gmail.com	Cancer Genomics	Fourie	Joubert	fourie.joubert@up.ac.za	home
+juliet	juliet	Fourie	Joubert	fourie.joubert@up.ac.za	Cancer Genomics	Fourie	Joubert	fourie.joubert@up.ac.za	home
+/lustre/juliet	juliet	Fourie	Joubert	fourie.joubert@up.ac.za	Cancer Genomics	Fourie	Joubert	fourie.joubert@up.ac.za	lustre
+shaza	shaza	Shaza	Fadlalla	shaza610@hotmail.com	Cancer Genomics	Fourie	Joubert	fourie.joubert@up.ac.za	home
+/lustre/werner	werner	Werner	Smidt	werner.smidt@gmail.com	Cancer Genomics	Fourie	Joubert	fourie.joubert@up.ac.za	lustre
+breandan	breandan	Breandan	Lawson	fourie.joubert@up.ac.za	Cancer Genomics	Fourie	Joubert	fourie.joubert@up.ac.za	home
+jeanre	jeanre	Jeanre	Smidt	fourie.joubert@up.ac.za	Cancer Genomics	Fourie	Joubert	fourie.joubert@up.ac.za	home
+johann	johann	Johann	Swart	johann.swart@up.ac.za	CBCB	Johann	Swart	johann.swart@up.ac.za	home
+/lustre/johann	johann	Johann	Swart	johann.swart@up.ac.za	CBCB	Johann	Swart	johann.swart@up.ac.za	lustre
+jswart	temp acc	Johann	Swart	johann.swart@up.ac.za	CBCB	Johann	Swart	johann.swart@up.ac.za	home
+jswart2	temp acc	Johann	Swart	johann.swart@up.ac.za	CBCB	Johann	Swart	johann.swart@up.ac.za	home
+marikeg	marikeg	Marike	Geldenhuys	geldenhuysmarike@gmail.com	Centre for Viral Zoonoses	Wanda	Markotter	wanda.markotter@up.ac.za	home
+/lustre/marikeg	marikeg	Marike	Geldenhuys	geldenhuysmarike@gmail.com	Centre for Viral Zoonoses	Wanda	Markotter	wanda.markotter@up.ac.za	lustre
+marindam	marindam	Marinda	Mortlock	marinda.moller@gmail.com	Centre for Viral Zoonoses	Wanda	Markotter	wanda.markotter@up.ac.za	home
+/lustre/marindam	marindam	Marinda	Morlock	marinda.moller@gmail.com	Centre for Viral Zoonoses	Wanda	Markotter	wanda.markotter@up.ac.za	lustre
+bridget	bridget	Bridget	Crampton	bgcrampton@gmail.com	CFPRG	Bridget	Crampton	bgcrampton@gmail.com	home
+brigitte	brigitte	Brigitte	Langenhoven	brigitte.langenhoven@gmail.com	CFPRG	Bridget	Crampton	bgcrampton@gmail.com	home
+/lustre/kirsty	kirsty	Kirsty	Botha	nicky.olivier@up.ac.za	CFPRG	Bridget	Crampton	bgcrampton@gmail.com	lustre
+miekie	miekie	Miekie	Human	miekie.human@fabi.up.ac.za	CFPRG	Bridget	Crampton	bgcrampton@gmail.com	home
+/lustre/miekie	miekie	Miekie	Human	miekie281@gmail.com	CFPRG	Bridget	Crampton	bgcrampton@gmail.com	lustre
+jeanb	jeanb	Jean-Baptiste	Ramond	jbaptiste.ramond@gmail.com	CMEG Cowan	Don	Cowan	don.cowan@up.ac.za	home
+/lustre/jeanb	jeanb	Jean-Baptiste	Ramond	jbaptiste.ramond@gmail.com	CMEG Cowan	Don	Cowan	don.cowan@up.ac.za	lustre
+surendra	surendra	Surendra	Vikram	surendra.vikram@up.ac.za	CMEG Cowan	Don	Cowan	don.cowan@up.ac.za	home
+/lustre/surendra	surendra	Surendra	Vikram	surendra.vikram@up.ac.za	CMEG Cowan	Don	Cowan	don.cowan@up.ac.za	lustre
+thulani	thulani	Thulani	Makhalanyane	thulani.makhalanyane@up.ac.za	CMEG Makhalanyane	Thulani	Makhalanyane	thulani.makhalanyane@up.ac.za	home
+ABI	abi	Renate	Zipfel	renate.zipfel@fabi.up.ac.za	DNA Sequencing Laboratory	Renate	Zipfel	renate.zipfel@fabi.up.ac.za	home
+ariska2	ariska	Ariska	van der Nest	ariska.vandernest@fabi.up.ac.za	FABI/TPCP Barnes	Irene	Barnes	irene.barnes@fabi.up.ac.za	home
+arista	arista	Arista	Fourie	arista.fourie@fabi.up.ac.za	FABI/TPCP Barnes	Irene	Barnes	irene.barnes@fabi.up.ac.za	home
+/lustre/arista	arista	Arista	Fourie	arista.fourie@fabi.up.ac.za	FABI/TPCP Barnes	Irene	Barnes	irene.barnes@fabi.up.ac.za	lustre
+irene	irene	Irene	Barnes	irene.barnes@fabi.up.ac.za	FABI/TPCP Barnes	Irene	Barnes	irene.barnes@fabi.up.ac.za	home
+/lustre/irene	irene	Irene	Barnes	irene.barnes@fabi.up.ac.za	FABI/TPCP Barnes	Irene	Barnes	irene.barnes@fabi.up.ac.za	lustre
+ads_data	alisa	Alisa	Postma	alisa.postma@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	home
+alisa	alisa	Alisa	Postma	alisa.postma@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	home
+apollo	alisa	Alisa	Postma	alisa.postma@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	home
+/lustre/alisa	alisa	Alisa	Postma	alisa.postma@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	lustre
+angelica	angelica	Angelica	Marsberg-De Villiers	angelica.marsberg@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	home
+/lustre/angelica	angelica	Angelica	Marsberg-De Villiers	angelica.marsberg@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	lustre
+antonk	antonk	Anton	Klingenberg	ant.kling08@gmail.com	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	home
+biancarj	biancarj	Bianca	Rodrigues Jardim	bianca.jardim@up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	home
+/lustre/biancarj	biancarj	Bianca	Rodrigues Jardim	bianca.jardim@up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	lustre
+edohan	edohan	Edohan	Clasen	edohanclasen@gmail.com	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	home
+/lustre/edohan	edohan	Edohan	Clasen	edohanclasen@gmail.com	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	lustre
+gudrun	gudrun	Gudrun	Dittrich-Schroder	Gudrun.Dittrich@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	home
+/lustre/gudrun	gudrun	Gudrun	Dittrich-Schroder	Gudrun.Dittrich@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	lustre
+hstrydom	hstrydom	Hannes	Strydom	hannes@strydomonline.co.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	home
+/lustre/hstrydom	hstrydom	Hannes	Strydom	hannes@strydomonline.co.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	lustre
+katrin	katrin	Katrin	Fitza	katrin.fitza@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	home
+mandy	mandy	Mandy	Messal	mandy.messal@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	home
+/lustre/mandy	mandy	Mandy	Messal	mandy.messal@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	lustre
+osmond	osmond	Osmond	Mlonyeni	osmond.mlonyeni@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	home
+/lustre/sophie	smakua	Sophie	Makua	u10166760@tuks.co.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	lustre
+tuan	tuan	Tuan	Duong	tuan.duong@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	home
+/lustre/tuan	tuan	Tuan	Duong	tuan.duong@fabi.up.ac.za	FABI/TPCP Slippers	Bernard	Slippers	bernard.slippers@up.ac.za	lustre
+shane	shane	Shane	Redelinghuys	shanered72@gmail.com	Female Health	Marleen	Kock	marleen.kock@up.ac.za	home
+/lustre/shane	shane	Shane	Redelinghuys	shanered72@gmail.com	Female Health	Marleen	Kock	marleen.kock@up.ac.za	lustre
+shaner	shaner	Shane	Redelinghuys	shanered72@gmail.com	Female Health	Marleen	Kock	marleen.kock@up.ac.za	home
+/lustre/danieller	danieller	Danielle	Roodt	danielle.roodt@fabi.up.ac.za	FMG Mizrahi	Eshchar	Mizrachi	eshchar.mizrachi@up.ac.za	lustre
+desre	desre	Desre	Pinard	desre.pinard@fabi.up.ac.za	FMG Mizrahi	Eshchar	Mizrachi	eshchar.mizrachi@up.ac.za	home
+/lustre/desre	desre	Desre	Pinard	desre.pinard@fabi.up.ac.za	FMG Mizrahi	Eshchar	Mizrachi	eshchar.mizrachi@up.ac.za	lustre
+dharty	dharty	Daniel	Harty	danieljohnharty@gmail.com	FMG Mizrahi	Eshchar	Mizrachi	eshchar.mizrachi@up.ac.za	home
+drew	drew	Drew	Behrens	drewjbeh@gmail.com	FMG Mizrahi	Eshchar	Mizrachi	eshchar.mizrachi@up.ac.za	home
+/lustre/drew	drew	Drew	Behrens	drewjbeh@gmail.com	FMG Mizrahi	Eshchar	Mizrachi	eshchar.mizrachi@up.ac.za	lustre
+druler	druler	Divan	van Ruler	dvruler@gmail.com	FMG Mizrahi	Eshchar	Mizrachi	eshchar.mizrachi@up.ac.za	home
+ida	ida	Ida	Van Jaarsveld	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+/lustre/ida	ida	ida	Van Jaarsveld	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+eucaftp	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+eucalyptes	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+eucguftp	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+karen	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+louise	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+nanetteftp	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+nanetteftpDataStore	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+nare	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+sonali	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+/lustre/circos	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+/lustre/fmg	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+/lustre/fmg_ftp	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+/lustre/karen	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+/lustre/lizahn	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+/lustre/louise	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+/lustre/nare	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+/lustre/roni	karen	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+lizahn	lizahn	Karen	van der Merwe	vdmerwe.karen@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+lloubser	lloubser	Lizette	Loubser	lizette.loubser@hotmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+/lustre/lloubser	lloubser	Lizette	Loubser	lizette.loubser@hotmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+marja	marja	Marja	O'Neill	marja.oneill@up.ac.za	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+/lustre/marja	marja	Marja	O'Neill	marja.oneill@up.ac.za	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+martinw	martinw	Martin	Wierzbicki	martinmegas101@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+/lustre/martinw	martinw	Martin	Wierzbicki	martinmegas101@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+nanette	nanette	Nanette	Christie	nanette.christie@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+/lustre/nanette	nanette	Nanette	Christie	nanette.christie@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+pooja	pooja	Pooja	Singh	pooja.singh09@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+/lustre/pooja	pooja	Pooja	Singh	pooja.singh09@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+riaansw	riaansw	Riaan	Swanepoel	riaan.swanepoel@fabi.up.ac.za	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+/lustre/riaansw	riaansw	Riaan	Swanepoel	riaan.swanepoel@fabi.up.ac.za	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+stephan	stephan	Stephan	Engelbrecht	engelbrechtstephan7@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+/lustre/stephan	stephan	Stephan	Engelbrecht	engelbrechtstephan7@gmail.com	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+steven	steven	Steven	Hussey	steven.hussey@fabi.up.ac.za	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+/lustre/steven	steven	Steven	Hussey	steven.hussey@fabi.up.ac.za	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	lustre
+zander	zander	Zander	Myburg	zander.myburg@up.ac.za	FMG Myburg	Zander	Myburg	zander.myburg@up.ac.za	home
+caryn	caryn	Caryn	Oates	caryn.oates@up.ac.za	FMG Naidoo	Sanushka	Naidoo	sanushka.naidoo@up.ac.za	home
+/lustre/caryn	caryn	Caryn	Oates	caryn.oates@up.ac.za	FMG Naidoo	Sanushka	Naidoo	sanushka.naidoo@up.ac.za	lustre
+erik	erik	Erik	Visser	erik.visser@up.ac.za	FMG Naidoo	Sanushka	Naidoo	sanushka.naidoo@up.ac.za	home
+/lustre/erik	erik	Erik	Visser	erik.visser@up.ac.za	FMG Naidoo	Sanushka	Naidoo	sanushka.naidoo@up.ac.za	lustre
+charles	charles	Charles	Hefer	charles.hefer@up.ac.za	Hefer OVI	Charles	Hefer	charles.hefer@up.ac.za	home
+/lustre/charles	charles	Charles	Hefer	charles.hefer@up.ac.za	Hefer OVI	Charles	Hefer	charles.hefer@up.ac.za	lustre
+godwin	godwin	Godwin	Mafireyi	mafireyi@gmail.com	Hefer OVI	Charles	Hefer	charles.hefer@up.ac.za	home
+/lustre/godwin	godwin	Godwin	Mafireyi	mafireyi@gmail.com	Hefer OVI	Charles	Hefer	charles.hefer@up.ac.za	lustre
+acolic	acolic	Antoinette	Colic	antoinette-d@mweb.co.za	ICMM	Michael	Pepper	michael.pepper@up.ac.za	lustre
+/lustre/acolic	acolic	Antoinette	Colic	antoinette-d@mweb.co.za	ICMM	Michael	Pepper	michael.pepper@up.ac.za	lustre
+mqondisi	mqondisi	Mqondisi	Tshabalala	mtshabaz@gmail.com	ICMM	Michael	Pepper	michael.pepper@up.ac.za	home
+/lustre/mqondisi	mqondisi	Mqondisi	Tshabalala	mtshabaz@gmail.com	ICMM	Michael	Pepper	michael.pepper@up.ac.za	lustre
+ionadmin	ionadmin	Nicky	Olivier	nicky.olivier@up.ac.za	Ion Torrent Sequencing Facility	Nicky	Olivier	nicky.olivier@up.ac.za	home
+/lustre/iontorrent	iontorrent	Nicky	Olivier	nicky.olivier@up.ac.za	Ion Torrent Sequencing Facility	Nicky	Olivier	nicky.olivier@up.ac.za	lustre
+microarray	microarray	Nicky	Olivier	nicky.olivier@up.ac.za	Ion Torrent Sequencing Facility	Nicky	Olivier	nicky.olivier@up.ac.za	home
+esmare	esmare	Esmare	Human	lynmarie.birkholtz@up.ac.za	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	home
+gordon	gordon	Gordon	Wells	lynmarie.birkholtz@up.ac.za	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	home
+jandeli	jandeli	Jandeli	Niemand	jandeli.niemand@up.ac.za	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	home
+christiaan	lynmarie	lynmarie	birkholtz	lbirkholtz@up.ac.za	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	home
+malaria	lynmarie	lynmarie	birkholtz	lbirkholtz@up.ac.za	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	home
+nabila	lynmarie	lynmarie	birkholtz	lbirkholtz@up.ac.za	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	home
+oldshaun	lynmarie	lynmarie	birkholtz	lbirkholtz@up.ac.za	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	home
+shaun	lynmarie	lynmarie	birkholtz	lbirkholtz@up.ac.za	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	home
+/lustre/jeff	lynmarie	lynmarie	birkholtz	lbirkholtz@up.ac.za	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	lustre
+marni	marni	marni	williams	lbirkholtz@up.ac.za	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	home
+pieter	pieter	Pieter	Burger	pieter.burger@gmail.com	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	home
+/lustre/pieter	pieter	Pieter	Burger	lynmarie.birkholtz@up.ac.za	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	lustre
+rudi	rudi	Rudi	van Wyk	roelofvanwyk89@gmail.com	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	home
+/lustre/rudi	rudi	Rudi	van Wyk	roelofvanwyk89@gmail.com	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	lustre
+tjaart	tjaart	Tjaart	de Beer	lbirkholtz@up.ac.za	M2PL	Lyn-Marie	Birkholtz	lynmarie.birkholtz@up.ac.za	home
+/lustre/thulani	thulani	Thulani	Makhalanyane	thulani.makhalanyane@up.ac.za	CMEG Makhalanyane	Thulani	Makhalanyane	thulani.makhalanyane@up.ac.za	lustre
+andries	andries	Andries	van der Walt	andriesvanderwalt@gmail.com	CMEG Makhalanyane	Thulani	Makhalanyane	thulani.makhalanyane@up.ac.za	home
+/lustre/andries	andries	Andries	van der Walt	andriesvanderwalt@gmail.com	CMEG Makhalanyane	Thulani	Makhalanyane	thulani.makhalanyane@up.ac.za	lustre
+wieko	wieko	Wiekolize	Rothmann	wiekolize@gmail.com	MBoP	Pamela	de Waal	pam.dewaal@up.ac.za	home
+enrico	enrico	Enrico	Rubagotti	wilma.fick@up.ac.za	MMR	Wilma	Fick	wilma.fick@up.ac.za	home
+/lustre/enrico	enrico	Enrico	Rubagotti	wilma.fick@up.ac.za	MMR	Wilma	Fick	wilma.fick@up.ac.za	lustre
+wilma	wilma	Wilma	Fick	wilma.fick@up.ac.za	MMR	Wilma	Fick	wilma.fick@up.ac.za	home
+/lustre/wilma	wilma	Wilma	Fick	wilma.fick@up.ac.za	MMR	Wilma	Fick	wilma.fick@up.ac.za	lustre
+cpgrftp	cpgrftp	Dave	Berger	dave.berger@up.ac.za	MPPI	Dave	Berger	dave.berger@up.ac.za	home
+dartftp	dartftp	Dave	Berger	dave.berger@up.ac.za	MPPI	Dave	Berger	dave.berger@up.ac.za	home
+dave	dave	Dave	Berger	dave.berger@up.ac.za	MPPI	Dave	Berger	dave.berger@up.ac.za	home
+duncan	duncan	Dave	Berger	dave.berger@up.ac.za	MPPI	Dave	Berger	dave.berger@up.ac.za	home
+jeanne	jeanne	Dave	Berger	dave.berger@up.ac.za	MPPI	Dave	Berger	dave.berger@up.ac.za	home
+meqtl	meqtl	Dave	Berger	dave.berger@up.ac.za	MPPI	Dave	Berger	dave.berger@up.ac.za	home
+meqtl_report	meqtl_report	Dave	Berger	dave.berger@up.ac.za	MPPI	Dave	Berger	dave.berger@up.ac.za	home
+meqtl-audit	meqtl-audit	Dave	Berger	dave.berger@up.ac.za	MPPI	Dave	Berger	dave.berger@up.ac.za	home
+mppiftp	mppiftp	Dave	Berger	dave.berger@up.ac.za	MPPI	Dave	Berger	dave.berger@up.ac.za	home
+nicky	nicky	Nicky	Olivier	nicky.olivier@up.ac.za	MPPI	Dave	Berger	dave.berger@up.ac.za	home
+/lustre/nicky	nicky	Nicky	Olivier	nicky.olivier@up.ac.za	MPPI	Dave	Berger	dave.berger@up.ac.za	lustre
+plantsftp	plantsftp	Dave	Berger	dave.berger@up.ac.za	MPPI	Dave	Berger	dave.berger@up.ac.za	home
+tanyaw	tanyaw	Tanya	Welgemoed	tanyawd@gmail.com	MPPI	Dave	Berger	dave.berger@up.ac.za	home
+/lustre/tanyaw	tanyaw	Tanya	Welgemoed	tanyawd@gmail.com	MPPI	Dave	Berger	dave.berger@up.ac.za	lustre
+tomatoftp	tomatoftp	Dave	Berger	dave.berger@up.ac.za	MPPI	Dave	Berger	dave.berger@up.ac.za	home
+gayle	gayle	Gayle	Wall	gaylevwall@gmail.com	Orbivirus	Vida	van Staden	vida.vanstaden@up.ac.za	home
+/lustre/gayle	gayle	Gayle	Wall	gaylevwall@gmail.com	Orbivirus	Vida	van Staden	vida.vanstaden@up.ac.za	lustre
+shani	shani	Shani	Bekker	shani.bekker@gmail.com	Orbivirus	Vida	van Staden	vida.vanstaden@up.ac.za	home
+tarren	tarren	Tarren	Seale	tarren.seale@up.ac.za	Rhizobia research	Fanus	Venter	fanus.venter@up.ac.za	home
+wai_yin	wai_yin	Annie	Chan	u28241925@tuks.co.za	Rhizobia research	Fanus	Venter	fanus.venter@up.ac.za	home
+/lustre/wai_yin	wai_yin	Annie	Chan	u28241925@tuks.co.za	Rhizobia research	Fanus	Venter	fanus.venter@up.ac.za	lustre
+clsole	clsole	Catherine	Sole	catherine.sole@up.ac.za	Scarab Research Group	Catherine	Sole	catherine.sole@up.ac.za	home
+mumoki	fmumoki	Fiona	Mumoki	nelimafiona@gmail.com	Social Insects Research Group (SIRG)	Christian	Pirk	christian.pirk@up.ac.za	home
+/lustre/mumoki	fmumoki	Fiona	Mumoki	nelimafiona@gmail.com	Social Insects Research Group (SIRG)	Christian	Pirk	christian.pirk@up.ac.za	lustre
+christian	christian	Christian	Stutzer	christian.stutzer@gmail.com	Tick vaccines	Christine	Maritz-Olivier	christine.maritz@up.ac.za	home
+CMO-Rmic	CMO-Rmic	Christine	Maritz-Olivier	christine.maritz@up.ac.za	Tick vaccines	Christine	Maritz-Olivier	christine.maritz@up.ac.za	home
+ingridr	ingridr	Ingrid	Rossouw	ingridr54@gmail.com	Tick vaccines	Christine	Maritz-Olivier	christine.maritz@up.ac.za	home
+/lustre/luise	luise	Luise	Robbertse	luiserobbertse@gmail.com	Tick vaccines	Christine	Maritz-Olivier	christine.maritz@up.ac.za	lustre
+samantha	samantha	Samantha	Reinecke	samreinecke2@gmail.com	Tick vaccines	Christine	Maritz-Olivier	christine.maritz@up.ac.za	home
+/lustre/samantha	samantha	Samantha	Reinecke	samreinecke2@gmail.com	Tick vaccines	Christine	Maritz-Olivier	christine.maritz@up.ac.za	lustre

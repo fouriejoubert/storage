@@ -1,0 +1,52 @@
+{% extends 'storageadmin/base.html' %}
+
+{% block datatables %}
+	<script type="text/javascript" class="init">
+	$(document).ready(function() {
+		$('#Lustre').DataTable({paging: false, searching: false});
+	} );
+	</script>
+	<script type="text/javascript" class="init">
+		$(document).ready(function() {
+		$('#Home').DataTable({paging: false, searching: false});
+	} );
+	</script>
+{% endblock datatables %}
+
+
+{% block title %}Home{% endblock title %}
+{% block nav-style %}mkt-nav{% endblock nav-style %}
+
+{% block content %}  
+{% csrf_token %}
+
+{% load static %}
+{% load humanize %}
+
+<h2>Latest storage usage for users in group {{ the_group }}</h2> 
+
+
+{% for key, value in user_storage_dict.items %}
+    <h3> {{ key.storage_volume_name }} </h3>
+	<table id={{ key.storage_volume_name }} class="table table-bordered table-striped" width="50%">
+	<thead class="thead-inverse">
+		<tr>
+			<th>User</th><th>Usage (GB)</th>
+		</tr>
+	</thead>
+    {% for listitem in value %}
+		<tr>
+			{% for key2, value2 in listitem.items %} <br>
+				<td> {{ key2.first_name  }} {{ key2.last_name }}</td> <td> {{ value2.storage_usage_amount|floatformat:2|intcomma}} </td>
+			{% endfor %}
+		</tr>
+    {% endfor %}
+	</table>
+
+
+{% endfor %}
+
+
+
+
+{% endblock content %}  

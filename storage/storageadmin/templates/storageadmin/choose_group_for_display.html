@@ -1,0 +1,25 @@
+{% extends 'storageadmin/base.html' %}
+
+{% block title %}Choose group for display{% endblock title %}
+{% block nav-style %}mkt-nav{% endblock nav-style %}
+
+{% block content %}  
+{% csrf_token %}
+
+{% load static %}
+{% load humanize %}
+
+<h2>Choose group for display</h2> 
+
+{% for group in current_user_groups %}
+<ul>
+<li><a href="{% url 'display_group' group_id=group.id %}"<a>{{ group.name}}</li>
+</ul>
+
+
+{% endfor %}
+
+
+
+
+{% endblock content %}  
