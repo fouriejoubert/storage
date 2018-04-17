@@ -96,7 +96,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'storage',
         'USER': 'storage',
-        'PASSWORD': 'xxxxxxxx',
+        'PASSWORD': 'oversight7',
         'HOST': 'localhost',
         'PORT': '',
     }
