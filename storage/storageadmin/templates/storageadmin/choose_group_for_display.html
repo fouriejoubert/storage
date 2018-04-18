@@ -12,9 +12,9 @@
 <h2>Choose group for display</h2> 
 
 {% for group in current_user_groups %}
-<ul>
-<li><a href="{% url 'display_group' group_id=group.id %}"<a>{{ group.name}}</li>
-</ul>
+<div class="list-group" >
+<a href="{% url 'display_group' group_id=group.id %}" class="list-group-item">{{ group.name}}</a>
+</div>
 
 
 {% endfor %}

@@ -78,7 +78,8 @@ def index(request):
         image_file_name = storage_volume.storage_volume_name + str(datetime.now().date()) + str(datetime.now().time()) + '.png'
         explode = (0.1, 0)
         fig1, ax1 = plt.subplots()
-        ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90)
+        colors = ['red', 'green']
+        ax1.pie(sizes, explode=explode, labels=labels, autopct='%1.1f%%', shadow=True, startangle=90, colors=colors)
         ax1.axis('equal')  
         plt.show()
         fig1.savefig(STATIC_DIR + image_file_name)
